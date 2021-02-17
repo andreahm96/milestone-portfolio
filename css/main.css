@@ -7,19 +7,19 @@ body{
 }
 /***** GRID *****/
 .full-width{
-  width:1200px;
+  width:auto;
   height: auto;
   clear: both;
   margin: 0 0 0 100px;
 
 }
 .half-width{
-  width: 600px;
+  width: 50%;
   float:left;
   margin-left:0px;
 }
 .third-width{
-  width: 400px;
+  width: 33.33%;
   float:left;
 }
 /***** Header *****/
