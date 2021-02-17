@@ -1,0 +1,276 @@
+/***** base styles *****/
+body{
+  font-family:'montserrat',sans-serif;
+  font-weight: 200;
+  color:#1a1a22;
+}
+/***** GRID *****/
+.full-width{
+  width:1200px;
+  height: auto;
+  clear: both;
+  margin: 0 0 0 200px;
+
+}
+.half-width{
+  width: 600px;
+  float:left;
+  margin-left:0px;
+}
+.third-width{
+  width: 400px;
+  float:left;
+}
+/***** Header *****/
+header{
+  height:800px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  background-image: url("../img/header.jpg");
+  opacity:0.95;
+  margin: 0;
+  position: sticky;
+}
+.half-width header{
+  float:left;
+}
+header h1 {
+  padding: 20px 0px;
+  font-size:20px;
+  color:#1a1a22;
+  font-family:'montserrat',sans-serif;
+  font-weight: 600;
+}
+nav{
+  padding:15px 0;
+}
+nav ul {
+  list-style: none;
+  float: right;
+}
+nav ul li{
+  display:inline-block;
+  padding-right: 45px;
+}
+nav ul li a{
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration:none;
+  text-transform: lowercase;
+  color:#1a1a22;
+
+}
+header h2{
+  clear: both;
+  float:left;
+  font-family:'lora';
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: capitalize;
+  padding:20px 0px;
+  width:600px;
+}
+/***** body *****/
+body{
+  background:#faf7f5;
+}
+h2{
+  font-size:30px;
+}
+h3{
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+h4{
+  font-size: 22px;
+  line-height: 5px;
+}
+h5{
+  font-size: 15px;
+  line-height:10px;
+}
+p{
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+/****** my work ******/
+#work{
+  clear:left;
+  height:1400px;
+
+}
+#work .fullwidth{
+padding:50px 0;
+height:1400px;
+}
+
+div #jubilee-image {
+  width:500px;
+  height:400px;
+  clear: both;
+  float:right;
+  padding-right:25px;
+}
+img#jubilee-austen{
+  float: right;
+}
+div #rogue {
+  width:475px;
+  height:350px;
+  clear: both;
+  float:right;
+  text-align:right;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 50px;
+
+}
+div #dorothy-image {
+  width:500px;
+  height:400px;
+  clear: both;
+  float:right;
+  padding-right: 25px;
+
+  }
+img#dorothy-delong{
+  float:right;
+}
+div #jubilee {
+  width:475px;
+  height:350px;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+div #rogue-image {
+    width:500px;
+    height:400px;
+    padding-left: 25px;
+}
+div #dorothy{
+  width:475px;
+  height:355px;
+  padding-top: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/***** About me *****/
+#about{
+  height:800px;
+  background-color: #b4976f;
+}
+ #about .full-width{
+  padding-top: 15px;
+  padding-bottom:40px;
+  height:auto;
+}
+#about .half-width{
+  height:auto;
+  width:500px;
+  padding-left:50px;
+  padding-right:45px;
+}
+#about img{
+  margin-top:45px;
+}
+#about img {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1a1a22;
+}
+#about h3{
+  color: white;
+}
+#about h5{
+  font-size: 25px;
+  line-height: 0;
+  color: white;
+}
+#about p{
+  line-height: 30px;
+  color: white;
+}
+
+
+/***** Contact *****/
+
+ #contact{
+ position: relative;
+ padding-top: 25px;
+ clear:left;
+ height: 400px;
+ background: white;
+}
+#contact::before{
+  content:"";
+  background-image:url("../img/footer.jpg");
+  background-size: cover;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left: 0px;
+  opacity:0.50;
+}
+
+#contact .third-width{
+  float:left;
+  position: relative;
+  height: 150px;
+  text-align: center;
+}
+#contact h3{
+  position: relative;
+  color:black;
+}
+#contact h4{
+  position: relative;
+  line-height: 28px;
+  font-size:24px;
+  font-weight: bold;
+  color: black;
+}
+#contact p {
+  position: relative;
+  line-height: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+#contact ul{
+  position: relative;
+  list-style: none;
+}
+#contact #socialmedia li {
+  display: inline-block;
+}
+#contact #socialmedia img{
+  position:relative;
+  padding-right: 50px;
+}
+
+#contact #chat-links li{
+  align-items:center;
+  line-height: 30px;
+  padding-right: 30px;
+}
+#meet h4 {
+  position:relative;
+  line-height: 25px;
+}
+#contact #chat-links a{
+    position:relative;
+    text-decoration: none;
+    text-transform: lowercase;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color:black;
+}
