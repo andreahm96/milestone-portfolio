@@ -7,10 +7,10 @@ body{
 }
 /***** GRID *****/
 .full-width{
-  width:auto;
+  width: 100%;
   height: auto;
   clear: both;
-  margin: 0 0 0 100px;
+  margin: 0;
 
 }
 .half-width{
