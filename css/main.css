@@ -28,7 +28,6 @@ p{
   line-height: 25px;
   font-size: 15px;
 }
-
 /***** GRID *****/
 .full-width{
   width: 100%;
@@ -103,10 +102,7 @@ header h2{
   clear:left;
   height:1400px;
 }
-#work .half-width{
-  width:100%;
-  float:left;
-}
+
 div #jubilee-image {
   width:500px;
   height:400px;
