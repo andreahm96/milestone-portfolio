@@ -3,7 +3,7 @@ body{
   font-family:'montserrat',sans-serif;
   font-weight: 200;
   color:#1a1a22;
-  width: auto;
+  width: 100%;
 }
 /***** GRID *****/
 .full-width{
@@ -25,6 +25,7 @@ body{
 /***** Header *****/
 header{
   height:800px;
+  width:105%;
   background-size: cover;
   background-position: center;
   background-attachment: local;
