@@ -4,7 +4,31 @@ body{
   font-weight: 200;
   color:#1a1a22;
   width: 100%;
+  background:#faf7f5;
 }
+h2{
+  font-size:30px;
+}
+h3{
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+h4{
+  font-size: 22px;
+  line-height: 5px;
+}
+h5{
+  font-size: 15px;
+  line-height:10px;
+}
+p{
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 15px;
+}
+
 /***** GRID *****/
 .full-width{
   width: 100%;
@@ -73,44 +97,16 @@ header h2{
   padding:10px 0 0 40px;
   width:50%;
 }
-/***** body *****/
-body{
-  background:#faf7f5;
-}
-h2{
-  font-size:30px;
-}
-h3{
-  line-height: 50px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-}
-h4{
-  font-size: 22px;
-  line-height: 5px;
-}
-h5{
-  font-size: 15px;
-  line-height:10px;
-}
-p{
-  font-weight: 300;
-  line-height: 25px;
-  font-size: 15px;
-}
 
 /****** my work ******/
 #work{
   clear:left;
   height:1400px;
-
 }
-#work .fullwidth{
-padding:50px 0;
-height:1400px;
+#work .half-width{
+  width:100%;
+  float:left;
 }
-
 div #jubilee-image {
   width:500px;
   height:400px;
